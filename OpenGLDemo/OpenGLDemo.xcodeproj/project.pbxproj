@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2E1D0C20DA39610045399C /* UIImage+GCYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E1D0B20DA39610045399C /* UIImage+GCYImage.m */; };
+		3EB2812F20D8F82D009B68F4 /* Quart2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2812E20D8F82D009B68F4 /* Quart2DView.m */; };
+		3EB2813220D8FC37009B68F4 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2813120D8FC37009B68F4 /* TestViewController.m */; };
+		3EB2813520D90125009B68F4 /* TestNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2813420D90125009B68F4 /* TestNavigationController.m */; };
+		3EB2813820D9043C009B68F4 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB2813720D9043C009B68F4 /* Test2ViewController.m */; };
 		3EE4C86B20C76FBE002DACE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE4C86A20C76FBE002DACE8 /* AppDelegate.m */; };
-		3EE4C86E20C76FBE002DACE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE4C86D20C76FBE002DACE8 /* ViewController.m */; };
-		3EE4C87120C76FBE002DACE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE4C86F20C76FBE002DACE8 /* Main.storyboard */; };
 		3EE4C87320C76FBF002DACE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE4C87220C76FBF002DACE8 /* Assets.xcassets */; };
 		3EE4C87620C76FBF002DACE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE4C87420C76FBF002DACE8 /* LaunchScreen.storyboard */; };
 		3EE4C87920C76FBF002DACE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE4C87820C76FBF002DACE8 /* main.m */; };
@@ -35,12 +38,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E2E1D0A20DA39610045399C /* UIImage+GCYImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+GCYImage.h"; sourceTree = "<group>"; };
+		3E2E1D0B20DA39610045399C /* UIImage+GCYImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GCYImage.m"; sourceTree = "<group>"; };
+		3EB2812D20D8F82D009B68F4 /* Quart2DView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quart2DView.h; sourceTree = "<group>"; };
+		3EB2812E20D8F82D009B68F4 /* Quart2DView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quart2DView.m; sourceTree = "<group>"; };
+		3EB2813020D8FC37009B68F4 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		3EB2813120D8FC37009B68F4 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		3EB2813320D90125009B68F4 /* TestNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNavigationController.h; sourceTree = "<group>"; };
+		3EB2813420D90125009B68F4 /* TestNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNavigationController.m; sourceTree = "<group>"; };
+		3EB2813620D9043C009B68F4 /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		3EB2813720D9043C009B68F4 /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
 		3EE4C86620C76FBE002DACE8 /* OpenGLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE4C86920C76FBE002DACE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EE4C86A20C76FBE002DACE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3EE4C86C20C76FBE002DACE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3EE4C86D20C76FBE002DACE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3EE4C87020C76FBE002DACE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EE4C87220C76FBF002DACE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EE4C87520C76FBF002DACE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EE4C87720C76FBF002DACE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EB2812C20D8F7F3009B68F4 /* Quart2DDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3EB2812D20D8F82D009B68F4 /* Quart2DView.h */,
+				3EB2812E20D8F82D009B68F4 /* Quart2DView.m */,
+				3E2E1D0A20DA39610045399C /* UIImage+GCYImage.h */,
+				3E2E1D0B20DA39610045399C /* UIImage+GCYImage.m */,
+			);
+			path = Quart2DDemo;
+			sourceTree = "<group>";
+		};
 		3EE4C85D20C76FBE002DACE8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +122,15 @@
 		3EE4C86820C76FBE002DACE8 /* OpenGLDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3EB2812C20D8F7F3009B68F4 /* Quart2DDemo */,
 				3EE4C86920C76FBE002DACE8 /* AppDelegate.h */,
 				3EE4C86A20C76FBE002DACE8 /* AppDelegate.m */,
-				3EE4C86C20C76FBE002DACE8 /* ViewController.h */,
-				3EE4C86D20C76FBE002DACE8 /* ViewController.m */,
-				3EE4C86F20C76FBE002DACE8 /* Main.storyboard */,
+				3EB2813020D8FC37009B68F4 /* TestViewController.h */,
+				3EB2813120D8FC37009B68F4 /* TestViewController.m */,
+				3EB2813620D9043C009B68F4 /* Test2ViewController.h */,
+				3EB2813720D9043C009B68F4 /* Test2ViewController.m */,
+				3EB2813320D90125009B68F4 /* TestNavigationController.h */,
+				3EB2813420D90125009B68F4 /* TestNavigationController.m */,
 				3EE4C87220C76FBF002DACE8 /* Assets.xcassets */,
 				3EE4C87420C76FBF002DACE8 /* LaunchScreen.storyboard */,
 				3EE4C87720C76FBF002DACE8 /* Info.plist */,
@@ -237,7 +262,6 @@
 			files = (
 				3EE4C87620C76FBF002DACE8 /* LaunchScreen.storyboard in Resources */,
 				3EE4C87320C76FBF002DACE8 /* Assets.xcassets in Resources */,
-				3EE4C87120C76FBE002DACE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EE4C86E20C76FBE002DACE8 /* ViewController.m in Sources */,
 				3EE4C87920C76FBF002DACE8 /* main.m in Sources */,
+				3EB2812F20D8F82D009B68F4 /* Quart2DView.m in Sources */,
+				3EB2813520D90125009B68F4 /* TestNavigationController.m in Sources */,
+				3EB2813820D9043C009B68F4 /* Test2ViewController.m in Sources */,
+				3E2E1D0C20DA39610045399C /* UIImage+GCYImage.m in Sources */,
 				3EE4C86B20C76FBE002DACE8 /* AppDelegate.m in Sources */,
+				3EB2813220D8FC37009B68F4 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +328,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3EE4C86F20C76FBE002DACE8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3EE4C87020C76FBE002DACE8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3EE4C87420C76FBF002DACE8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,13 +456,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z899C473MY;
 				INFOPLIST_FILE = OpenGLDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TonyYang.OpenGLDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,13 +474,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z899C473MY;
 				INFOPLIST_FILE = OpenGLDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TonyYang.OpenGLDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
