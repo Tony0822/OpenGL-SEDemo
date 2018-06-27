@@ -8,9 +8,11 @@
 
 #import "Test2ViewController.h"
 #import "Quart2DView.h"
+#import "BezierPathView.h"
 
 @interface Test2ViewController ()
 @property (nonatomic, strong) Quart2DView *quartView;
+@property (nonatomic, strong) BezierPathView *bezierView;
 @property (nonatomic, strong) UISlider *slider;
 
 @end
@@ -21,12 +23,22 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor cyanColor];
     NSLog(@"%s", __func__);
-    [self.view addSubview:self.quartView];
+//    [self.view addSubview:self.quartView];
+    [self.view addSubview:self.bezierView];
     [self.view addSubview:self.slider];
 }
 
 - (void)sliderClick:(UISlider *)sender {
     self.quartView.progress = sender.value;
+}
+
+- (BezierPathView *)bezierView {
+    if (!_bezierView) {
+        _bezierView = [[BezierPathView alloc] initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height - 100)];
+        _bezierView.backgroundColor = [UIColor lightGrayColor];
+        _bezierView.backgroundColor = [UIColor whiteColor];
+    }
+    return _bezierView;
 }
 
 - (Quart2DView *)quartView {

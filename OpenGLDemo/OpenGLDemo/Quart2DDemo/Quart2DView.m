@@ -21,12 +21,12 @@
 - (void)drawRect:(CGRect)rect {
     NSLog(@"%s", __func__);
     [self drawLine];
-//    [self drawRectangle];
-//    [self drawRoundNess];
-//    [self drawText];
-//    [self drawPicture];
-//    [self drawPropress];
-//    [self drawThreeLine];
+    [self drawRectangle];
+    [self drawRoundNess];
+    [self drawText];
+    [self drawPicture];
+    [self drawPropress];
+    [self drawThreeLine];
     [self drawLineWithSrartColor:[UIColor redColor] endColor:[UIColor greenColor]];
 }
 // 创建渐变线
